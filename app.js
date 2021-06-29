@@ -11,12 +11,13 @@
 
 let count = 0
 function increment() {
-    console.log("BUTTON CLICKED");
-
+    // console.log("BUTTON CLICKED");
+    count += 1;
+    console.log(count)
 }
 
 //Random practice below here
-function fourtyTwo() {
-    console.log(42);
-}
-fourtyTwo()
+// function fourtyTwo() {
+//     console.log(42);
+// }
+// fourtyTwo()
