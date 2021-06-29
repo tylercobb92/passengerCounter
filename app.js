@@ -11,6 +11,7 @@
 
 let count = 0
 function increment() {
-    console.log("BUTTON CLICKED")
+    console.log("BUTTON CLICKED");
+
 }
 
