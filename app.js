@@ -15,3 +15,8 @@ function increment() {
 
 }
 
+//Random practice below here
+function fourtyTwo() {
+    console.log(42);
+}
+fourtyTwo()
