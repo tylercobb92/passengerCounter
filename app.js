@@ -7,3 +7,8 @@ function increment() {
     countEl.innerText = count;
     // console.log(count)
 }
+
+//create save() which logs out the count when called
+function save() {
+    console.log(count);
+}
