@@ -18,8 +18,8 @@ function increment() {
 
 function save() {
     // console.log(count);
-    let currentCount = " " + count + " -";
-    saveEl.innerText += currentCount;
+    let currentCount = count + " - ";
+    saveEl.textContent += currentCount;
     count = 0;
     countEl.innerText = count;
 }
