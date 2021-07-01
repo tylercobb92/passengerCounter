@@ -7,7 +7,7 @@ let saveEl = document.getElementById("save-el")
 function increment() {
     // console.log("BUTTON CLICKED");
     count += 1;
-    countEl.innerText = count;
+    countEl.textContent = count;
     // console.log(count)
 }
 
@@ -21,7 +21,7 @@ function save() {
     let currentCount = count + " - ";
     saveEl.textContent += currentCount;
     count = 0;
-    countEl.innerText = count;
+    countEl.textContent = count;
 }
 //random practice below
 
